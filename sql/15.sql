@@ -9,7 +9,6 @@
  * and you can SELECT from that VIEW instead of constructing the entire query manually.
  */
 
-
 SELECT title, actors
 FROM nicer_but_slower_film_list
 WHERE category = 'Documentary'
